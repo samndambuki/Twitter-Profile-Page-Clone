@@ -12,15 +12,15 @@ fetch('https://jsonplaceholder.typicode.com/posts').then((data)=>{
     // console.log(data);
     return data.json();
 }).then((completedata)=>{
-    console.log(completedata[0].userId);
+    // console.log(completedata[0].userId);
 
     let data1 = "";
 
     completedata.map((values)=>{
         data1 += `
         <div id="tweet">
+                
                     <h1 id="userId">${values.userId}</h1>
-                    <h1 id="tweetheading">${values.it}</h1>
                     <p id="title">${values.title}</p>
                     <p id="body">${values.body}</p>
                 </div>
