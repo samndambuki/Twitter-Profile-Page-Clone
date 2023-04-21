@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Twitter Profile Page Clone</title>
 </head>
+<link rel="stylesheet" href="styles.css">
 <body>
     <div class="container">
         <div class="username">
             <img src=""> 
-            <p>Samuel Ndambuki</p>
+            <p id="firsttwittername">Samuel Ndambuki</p>
             <img src="">
             <img src="">
             <p>32.3k Tweets</p>
@@ -24,10 +25,10 @@
             
             <div class="profilename">
                 <img src=""> 
-                <p>Samuel Ndambuki</p>
+                <p id="secondtwittername">Twitter Name</p>
                 <img src="">
                 <img src="">
-                <p>@Samuel Ndambuki</p>
+                <p id="username">@Samuel Ndambuki</p>
             </div>
 
             <div class="icons">
@@ -91,8 +92,8 @@
         </div>
 
         <div class="navigation">
-            <div class="Tweets">
-                <h1>Tweets</h1>
+            <div id="tweets">
+                
             
             </div>
 
@@ -108,12 +109,15 @@
 
             <div class="likes">
                 <h1>Likes</h1>
-                
+
             </div>
 
         </div>
 
     </div>
-    
+
+    <div id="root"></div>
+    <script src="script.js"></script>
 </body>
+
 </html>
