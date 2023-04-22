@@ -22,8 +22,8 @@ fetch('https://jsonplaceholder.typicode.com/users/1/posts').then((data)=>{
     completedata.map((values)=>{
         data1 += `
         <div id="tweet">
-                
-                    <h1 id="userId">${values.userId}</h1>
+                    <img src="images/jason-statham-medium.jpg"> 
+                    
                     <p id="title">${values.title}</p>
                     <p id="body">${values.body}</p>
                 </div>
