@@ -8,7 +8,10 @@ fetch('https://jsonplaceholder.typicode.com/users').then((data)=>{
     document.getElementById('username').innerHTML = completedata[0].username;
 });
 
-fetch('https://jsonplaceholder.typicode.com/posts').then((data)=>{
+
+
+
+fetch('https://jsonplaceholder.typicode.com/users/1/posts').then((data)=>{
     // console.log(data);
     return data.json();
 }).then((completedata)=>{
