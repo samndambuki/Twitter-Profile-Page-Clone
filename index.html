@@ -10,48 +10,57 @@
 <body>
     <div class="container">
         <div class="username">
-            <img src=""> 
-            <p id="firsttwittername">Samuel Ndambuki</p>
+            <!-- <img src="">  -->
+            <ion-icon name="arrow-back"></ion-icon> <p id="firsttwittername">Samuel Ndambuki</p>
             <img src="">
             <img src="">
             <p>32.3k Tweets</p>
         </div>
 
         <div class="backgroundimage">
-            <img src="">
+            <img src="images/background.png">
         </div>
 
         <div class="profile">
             
             <div class="firstprofilepart">
                 <div class="profilename">
-                    <img src=""> 
-                    <p id="secondtwittername">Twitter Name</p>
-                    <img src="">
-                    <img src="">
+                    <img src="images/jason-statham-medium.jpg"> 
+                   
+                    <div class="profilenameinfo">
+                        <p id="secondtwittername">Twitter Name</p>
+                            
+                            <img src="">
+                            <img src="">
+                       
+                    </div>
+                   
                     <p>@</p><p id="username">username</p>
                 </div>
     
                 <div class="icons">
                     <img src="">
+                    <ion-icon name="ellipsis-horizontal-circle-outline"></ion-icon>
                     <p>icon1</p>
                     <img src="">
+                    <ion-icon name="mail-outline"></ion-icon>
                     <p>icon2</p>
                     <img src="">
-                    <p>icon23</p>
-                    <p>Following</p>
+                    <ion-icon name="notifications-circle-outline"></ion-icon>
+                    <p>icon3</p>
+                    <p class="iconfollowing">Following</p>
                 </div>
             </div>
           
 
             <div class="profileinfo">
                 <p>Lead Dev Rel
-                 <span>
+                 <span style="color: #2596be;">
                     @Alche,yPlatform
                 </span>
                 <img src="">
                 Created 
-                <span>
+                <span style="color: #2596be;">
                     @AlchemyLearn
                 </span>
                 |
@@ -64,24 +73,27 @@
 
             <div class="moreinfo">
                 <img src="">
-                Science & Technology
+                <p>Science & Technology</p>
                 <img src="">
                 <img src="">
-                Ethereum
+                <ion-icon name="location-outline"></ion-icon>
+               <p>Ethereum</p>
                 <img src="">
-                <p>vitto.cc</p>
+                <ion-icon name="link-outline"></ion-icon>
+                <p style="color: #2596be;">vitto.cc</p>
                 <img src="">
-                Joined August 2020
+                <ion-icon name="calendar-outline"></ion-icon>
+                <p>Joined August 2020</p>
             </div>
 
             <div class="followersandfollowing">
                 <div class="following">
-                    <p>322</p>
+                    <p style="font-weight: bold;">322</p>
                     <p>Following</p>
                 </div>
 
                 <div class="followers">
-                    <p>110.8K</p>
+                    <p style="font-weight: bold;">110.8K</p>
                     <p>Followers</p>
                 </div>
             </div>
@@ -100,7 +112,10 @@
         <div class="navigation">
 
             <div class="alltweets">
-                <h1>Tweets</h1>
+                <h1 style="font-weight: bold;">Tweets</h1>
+                <div class="underline">
+
+                </div>
                 <div id="tweets">
             
                 </div>
@@ -129,6 +144,8 @@
 
     <div id="root"></div>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>
